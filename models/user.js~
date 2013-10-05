@@ -1,0 +1,10 @@
+module.exports = function(sequelize, DataTypes) {
+    return sequelize.define('user',
+	{
+	    firstName: {type: db.Sequelize.STRING},
+	    lastName: {type: db.Sequelize.STRING},
+	    password: {type: db.Sequelize.STRING},
+	    numberOfPets: {type: db.Sequelize.INTEGER},
+	}
+    );
+);
